@@ -16,7 +16,8 @@ class consumer{
     public static void main(String args[]){
     Bank b1;
     b1=new Kotak();
-    Sytem.out.println("Rate of Interest"+b1.interest);
-
+    System.out.println("Rate of Interest"+b1.interest());
+    b1=new Au();
+    System.out.println("Rate of Interest"+b1.interest());
     }
 }
